@@ -160,14 +160,17 @@ body.no-scroll{overflow:hidden}
 @media(min-width:820px){.hero-nav .right{margin-left:0;justify-self:end}}
 .hero-nav .icon-btn{background:rgba(18,13,8,.82);border-color:rgba(255,214,150,.35);color:var(--gold2)}
 .hero-nav .icon-btn:hover{background:var(--gold2);color:var(--bg)}
-.hero-nav .hours{font:700 10.5px/1.3 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:#2a1c0c}
-.hero-nav .hours i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#5b4426;margin-right:8px;vertical-align:1px}
-.hero-nav .hours.open i{background:#2f7a35;box-shadow:0 0 0 3px rgba(47,122,53,.2)}
+/* Altın çizgili zeminde okunabilsin diye koyu, yarı saydam kapsül içinde (menü bağlantılarıyla aynı stil) */
+.hero-nav .hours{justify-self:start;display:inline-flex;align-items:center;padding:10px 16px 10px 14px;border-radius:999px;background:rgba(18,13,8,.82);box-shadow:0 0 0 1px rgba(255,214,150,.3),0 10px 30px rgba(40,24,8,.35);font:600 10.5px/1.3 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold2);white-space:nowrap}
+.hero-nav .hours:empty{display:none}
+.hero-nav .hours i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#8a7350;margin-right:8px;vertical-align:1px}
+.hero-nav .hours.open i{background:#4cc35a;box-shadow:0 0 0 3px rgba(76,195,90,.25),0 0 8px rgba(76,195,90,.6)}
 .hero-in{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:36px 18px 28px}
 .hero .plaque{opacity:0;animation:fadeIn .01s 1.6s forwards, lightOn 2.4s var(--ease) 1.6s both}
-.hero-tag{font:italic 500 clamp(21px,2.8vw,29px)/1.35 var(--serif);color:#2a1c0c;max-width:560px;margin:46px auto 0;text-shadow:0 1px 0 rgba(255,236,200,.5);opacity:0;animation:up 1.2s var(--ease) 2.2s forwards}
+.hero-tag{display:table;font:italic 500 clamp(19px,2.8vw,27px)/1.35 var(--serif);color:var(--gold2);max-width:min(560px,calc(100% - 8px));margin:40px auto 0;padding:12px 26px;border-radius:999px;background:rgba(18,13,8,.82);box-shadow:0 0 0 1px rgba(255,214,150,.3),0 10px 30px rgba(40,24,8,.35);text-shadow:0 0 12px rgba(255,190,100,.35);opacity:0;animation:up 1.2s var(--ease) 2.2s forwards}
+.hero-tag:empty{display:none}
 .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:26px;opacity:0;animation:up 1.2s var(--ease) 2.4s forwards}
-.hero .cta{border-color:#1c140b;color:#1c140b}
+.hero .cta{border-color:#1c140b;color:#1c140b;background:var(--gold2);box-shadow:0 10px 26px rgba(40,24,8,.35)}
 .hero .cta::before{background:#1c140b}
 .hero .cta:hover{color:var(--gold2)}
 .hero .cta.fill{background:#1c140b;color:var(--gold2);box-shadow:0 10px 26px rgba(40,24,8,.35)}
