@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Yirmi · Menü Yönetimi</title>
+<link rel="preload" href="assets/logo.png" as="image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Cormorant+Garamond:wght@500;600&family=Mrs+Saint+Delafield&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
@@ -18,6 +19,11 @@ body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 'DM Sans',sy
 button,input,select,textarea{font:inherit;color:inherit}
 h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:600;margin:0}
 h2{font-size:25px!important}
+.topbar h1{display:flex;align-items:center;gap:4px}
+.brand-logo{display:block;height:42px;width:auto;margin:-4px 8px -4px 0;filter:brightness(1.3) drop-shadow(0 0 1px rgba(255,236,190,.9)) drop-shadow(0 0 6px rgba(255,190,100,.7))}
+.logo-prev{margin-top:12px;background:linear-gradient(180deg,#211810,#120d08);border-radius:14px;padding:18px;display:flex;justify-content:center;align-items:center;min-height:90px}
+.logo-prev img{max-height:110px;max-width:100%;filter:drop-shadow(0 0 1.5px rgba(255,236,190,.9)) drop-shadow(0 0 6px rgba(255,190,100,.8))}
+.logo-prev .brand-script{font-size:56px;margin:0}
 .brand-script{font:400 34px/1 'Mrs Saint Delafield','Great Vibes',cursive;color:#ffd894;text-shadow:0 0 8px rgba(255,180,90,.6);margin-right:6px;vertical-align:-4px}
 
 /* Üst çubuk */
@@ -292,7 +298,7 @@ body.locked{background-color:#a8844f;background-image:radial-gradient(70% 55% at
 
 <div class="topbar">
   <div class="topbar-inner">
-    <h1><span class="brand-script">Yirmi</span> Menü Yönetimi</h1>
+    <h1><img class="brand-logo" id="brand-logo" src="assets/logo.png" alt="Yirmi"><span class="brand-script hide" id="brand-script">Yirmi</span> Menü Yönetimi</h1>
     <span class="dirty hide" id="dirty">Kaydedilmemiş değişiklik var</span>
     <a class="btn ghost" href="index.html" target="_blank" rel="noopener">Menüyü Aç</a>
     <button class="btn primary" id="save-btn">Kaydet ve Yayınla</button>
@@ -528,6 +534,7 @@ body.locked{background-color:#a8844f;background-image:radial-gradient(70% 55% at
     <h2>İşletme Bilgileri</h2>
     <div class="grid" id="site-fields"></div>
     <p class="hint" style="margin-top:12px"><b>Logo:</b> Altın logonuzu <b>şeffaf arka planlı PNG</b> olarak yükleyin; menüde koyu tabelanın üzerinde parlayarak görünür. Logo yüklenmezse “Yirmi” el yazısıyla otomatik çizilir.</p>
+    <div class="logo-prev" id="logo-prev"></div>
     <div class="row-actions"><label class="btn sm primary">Logo yükle (PNG)<input type="file" accept="image/png,image/webp,image/svg+xml" id="logo-upload" hidden></label><button class="btn sm" id="logo-reset">El yazısı logoya dön</button></div>
   </div>
   <div class="panel">
@@ -1983,6 +1990,17 @@ body.locked{background-color:#a8844f;background-image:radial-gradient(70% 55% at
       '<div class="field"><label>' + label + '</label><input data-site="' + k + '" value="' + esc(state.site[k]) + '"></div>'
     ).join('');
     renderSocialFields();
+    renderLogo();
+  }
+  // Üst çubuktaki ve İşletme sekmesindeki logo, menüdekiyle aynı: yüklenen görsel, yoksa el yazısı
+  function renderLogo(){
+    const src = state.site.logo ? previewUrl(state.site.logo) : '';
+    const name = state.site.name || 'Yirmi';
+    $('#brand-logo').classList.toggle('hide', !src);
+    $('#brand-script').classList.toggle('hide', !!src);
+    if(src) $('#brand-logo').src = src;
+    $('#brand-script').textContent = name;
+    $('#logo-prev').innerHTML = src ? '<img src="' + esc(src) + '" alt="' + esc(name) + '">' : '<span class="brand-script">' + esc(name) + '</span>';
   }
   // Logo şeffaflığı korunsun diye PNG olarak (küçültülerek) yüklenir
   $('#logo-upload').addEventListener('change', async e => {
@@ -1997,6 +2015,7 @@ body.locked{background-color:#a8844f;background-image:radial-gradient(70% 55% at
     const k = e.target.dataset.site;
     if(!k) return;
     state.site[k] = e.target.value;
+    if(k === 'logo' || k === 'name') renderLogo();
     setDirty(true);
   });
 
