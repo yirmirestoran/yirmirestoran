@@ -2085,7 +2085,8 @@ body.locked{background-color:#a8844f;background-image:radial-gradient(70% 55% at
   const wait = ms => new Promise(r => setTimeout(r, ms));
 
   function unlock(cfg){
-    session = cfg;
+    // github.io'da açılıyorsa kullanıcı/repo adı adresten alınır; repo yeniden adlandırılsa da panel doğru repoya kaydeder
+    session = Object.assign({}, cfg, guessRepo() || {});
     document.body.classList.remove('locked');
     $('#login-pw').value = '';
     loadMenu();
