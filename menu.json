@@ -334,7 +334,8 @@
           "id": "mezeler--deniz-fasulyesi"
         }
       ],
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-mezeler-mur31t1i.jpg"
     },
     {
       "id": "salatalar",
@@ -371,7 +372,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "salatalar--avokado-salata"
+          "id": "salatalar--avokado-salata",
+          "image": "images/avokado-salata-mur34nq0.jpg"
         },
         {
           "name": "Domates Salatası",
@@ -396,7 +398,8 @@
           "id": "salatalar--peynirli-roka-salata"
         }
       ],
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-salatalar-mur34gou.jpg"
     },
     {
       "id": "ara-sicaklar",
@@ -521,7 +524,8 @@
           "id": "ara-sicaklar--limonlu-sac-kavurma"
         }
       ],
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-ara-sicaklar-mur3672d.jpg"
     },
     {
       "id": "ana-yemekler",
@@ -602,7 +606,8 @@
           "id": "ana-yemekler--levrek"
         }
       ],
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-ana-yemekler-mur3gwni.jpg"
     },
     {
       "id": "tatlilar",
@@ -816,7 +821,7 @@
         }
       ],
       "layout": "list",
-      "hideCollage": true
+      "cover": "images/kapak-alkolsuz-icecekler-mur3e0wg.jpg"
     },
     {
       "id": "rakilar",
@@ -985,7 +990,7 @@
         }
       ],
       "layout": "list",
-      "hideCollage": true
+      "cover": "images/kapak-rakilar-mur3fc2l.jpg"
     },
     {
       "id": "saraplar",
