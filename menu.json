@@ -96,7 +96,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--ciger-pate"
+          "id": "sefin-seckisi--ciger-pate",
+          "image": "images/ciger-pate-mur7l39y.jpg"
         },
         {
           "name": "Mantar Düksel",
@@ -108,7 +109,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--mantar-duksel"
+          "id": "sefin-seckisi--mantar-duksel",
+          "image": "images/mantar-duksel-mur7lc1k.jpg"
         }
       ],
       "setPrice": "5 Meze  ·  675 TL",
@@ -131,7 +133,7 @@
           ],
           "traceWarning": "",
           "id": "mezeler--koz-kapya-humus",
-          "image": "images/koz-kapya-humus-mur5goob.jpg"
+          "image": "images/koz-kapya-humus-mur7lid3.jpg"
         },
         {
           "name": "Zeytinyağlı Enginar",
@@ -209,7 +211,7 @@
           ],
           "traceWarning": "",
           "id": "mezeler--atom",
-          "image": "images/atom-mur5vimb.jpg"
+          "image": "images/atom-mur7mfaj.jpg"
         },
         {
           "name": "Mantar Borani",
@@ -223,7 +225,7 @@
           ],
           "traceWarning": "",
           "id": "mezeler--mantar-borani",
-          "image": "images/mantar-borani-mur5x5nz.jpg"
+          "image": "images/mantar-borani-mur7mpg1.jpg"
         },
         {
           "name": "Kinzi Avokado",
@@ -234,7 +236,7 @@
           "allergens": [],
           "traceWarning": "",
           "id": "mezeler--kinzi-avokado",
-          "image": "images/kinzi-avokado-mur63jfj.jpg"
+          "image": "images/kinzi-avokado-mur7mvxx.jpg"
         },
         {
           "name": "Levrek Marin",
@@ -248,7 +250,7 @@
           ],
           "traceWarning": "",
           "id": "mezeler--levrek-marin",
-          "image": "images/levrek-marin-mur655ub.jpg"
+          "image": "images/levrek-marin-mur7n36m.jpg"
         },
         {
           "name": "Köz Biber Ezmesi",
@@ -261,7 +263,8 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--koz-biber-ezmesi"
+          "id": "mezeler--koz-biber-ezmesi",
+          "image": "images/koz-biber-ezmesi-mur7naj4.jpg"
         },
         {
           "name": "Yoğurtlu Semizotu",
@@ -273,7 +276,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "mezeler--yogurtlu-semizotu"
+          "id": "mezeler--yogurtlu-semizotu",
+          "image": "images/yogurtlu-semizotu-mur7nh22.jpg"
         },
         {
           "name": "Kök Sebze Pilaki",
@@ -283,7 +287,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--kok-sebze-pilaki"
+          "id": "mezeler--kok-sebze-pilaki",
+          "image": "images/kok-sebze-pilaki-mur7nop0.jpg"
         },
         {
           "name": "Yoğurtlu Köz Patlıcan",
@@ -295,7 +300,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "mezeler--yogurtlu-koz-patlican"
+          "id": "mezeler--yogurtlu-koz-patlican",
+          "image": "images/yogurtlu-koz-patlican-mur7ntqz.jpg"
         },
         {
           "name": "Babagannuş",
@@ -309,7 +315,8 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--babagannus"
+          "id": "mezeler--babagannus",
+          "image": "images/babagannus-mur7o1zz.jpg"
         },
         {
           "name": "Havuç Tarator",
@@ -322,7 +329,8 @@
             "mustard"
           ],
           "traceWarning": "",
-          "id": "mezeler--havuc-tarator"
+          "id": "mezeler--havuc-tarator",
+          "image": "images/havuc-tarator-mur7o7m1.jpg"
         },
         {
           "name": "Şakşuka",
@@ -332,7 +340,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--saksuka"
+          "id": "mezeler--saksuka",
+          "image": "images/saksuka-mur7oifj.jpg"
         },
         {
           "name": "Deniz Fasulyesi",
