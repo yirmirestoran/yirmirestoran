@@ -1,1194 +1,1178 @@
 {
-    "site":  {
-                 "name":  "Yirmi",
-                 "city":  "Denizli",
-                 "tagline":  "Aynı masada, daha güzel yarınlara…",
-                 "address":  "Denizli",
-                 "phone":  "+90 500 000 00 00",
-                 "email":  "info@lacamino.com.tr",
-                 "opening":  "14:00",
-                 "closing":  "00:00",
-                 "logo":  "assets/logo.png",
-                 "chef":  {
-                              "name":  "Kıvanç Karadeniz",
-                              "title":  "Yirmi Mutfak Şefi · MasterChef Türkiye Finalisti",
-                              "quote":  "Denizli\u0027nin sofrası, ustalıkla yeniden yorumlandı.",
-                              "story":  "Kıvanç Karadeniz, Denizli\u0027de doğdu ve büyüdü. Mutfağa olan merakı çocukluk yıllarındaki Ege sofralarında başladı; zeytinyağının, otların ve közün kokusu hep hafızasında kaldı.\n\nLiseyi Denizli\u0027de bitirdikten sonra İstanbul Üniversitesi Mühendislik Fakültesi\u0027nde okudu. Ancak asıl tutkusunun mutfak olduğunu fark etti ve profesyonel aşçılık eğitimi alarak hayatını bu yola adadı. İstanbul\u0027da, Yeniköy\u0027deki bir restoranda yardımcı mutfak şefi olarak çalıştı.\n\nMasterChef Türkiye 2022\u0027de büyük finale yükselerek yarışmayı ikinci tamamladı. 2025–2026 sezonundaki MasterChef Altın Kupa\u0027da altın önlüğü kazanarak final dörtlüsüne kaldı ve milyonların takdirini topladı.\n\nBugün doğduğu şehirde, Yirmi\u0027nin mutfağında; Denizli\u0027nin ve Ege\u0027nin dürüst lezzetlerini, yarışmalarda bilenen tekniği ve sade bir zarafetle yeniden yorumluyor.",
-                              "photo":  "images/kivanc-karadeniz-portre.jpg",
-                              "timeline":  [
-                                               {
-                                                   "year":  "Denizli",
-                                                   "text":  "Doğduğu şehir — mutfak tutkusu Ege sofralarında başladı"
-                                               },
-                                               {
-                                                   "year":  "İstanbul",
-                                                   "text":  "Mühendislik eğitiminin ardından profesyonel aşçılık eğitimi"
-                                               },
-                                               {
-                                                   "year":  "Yeniköy",
-                                                   "text":  "İstanbul\u0027da restoran mutfağında yardımcı şef"
-                                               },
-                                               {
-                                                   "year":  "2022",
-                                                   "text":  "MasterChef Türkiye — büyük final, ikincilik"
-                                               },
-                                               {
-                                                   "year":  "2026",
-                                                   "text":  "MasterChef Altın Kupa — altın önlük ve final dörtlüsü"
-                                               },
-                                               {
-                                                   "year":  "Bugün",
-                                                   "text":  "Yirmi Denizli\u0027nin mutfağında, doğduğu şehirde"
-                                               }
-                                           ],
-                              "signatureText":  "Kıvanç Karadeniz"
-                          }
-             },
-    "categories":  [
-                       {
-                           "id":  "sefin-seckisi",
-                           "title":  "Şefin Seçkisi",
-                           "subtitle":  "Şefin her gün özenle seçtiği beş meze, tek tabakta.",
-                           "items":  [
-                                         {
-                                             "name":  "Somon Pastırma",
-                                             "price":  "",
-                                             "description":  "Sızma zeytinyağı, kırmızı soğan, limon suyu",
-                                             "calories":  "180",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "fish"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Güllü Kuru Cacık",
-                                             "price":  "",
-                                             "description":  "Süzme yoğurt, gül suyu, gül yaprağı, salatalık",
-                                             "calories":  "140",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tarama",
-                                             "price":  "",
-                                             "description":  "Balık yumurtası, lime zest, sızma zeytinyağı",
-                                             "calories":  "230",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten",
-                                                               "fish"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Ciğer Pate",
-                                             "price":  "",
-                                             "description":  "Dana ciğer, soğan, sarımsak, krema",
-                                             "calories":  "260",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Mantar Düksel",
-                                             "price":  "",
-                                             "description":  "Kültür mantarı, istiridye mantarı, kestane mantarı, soğan, sarımsak",
-                                             "calories":  "170",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "setPrice":  "5 Meze  ·  675 TL",
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "mezeler",
-                           "title":  "Mezeler",
-                           "subtitle":  "Ege\u0027nin bereketi, mevsimin en taze halleri.",
-                           "items":  [
-                                         {
-                                             "name":  "Köz Kapya Humus",
-                                             "price":  "320 TL",
-                                             "description":  "Çıtır nohut, nane yağı",
-                                             "calories":  "300",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sesame"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Zeytinyağlı Enginar",
-                                             "price":  "380 TL",
-                                             "description":  "Narenciye sos, nar havyarı",
-                                             "calories":  "220",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Zencefilli Fava",
-                                             "price":  "280 TL",
-                                             "description":  "Kırmızı soğan, dereotu, limon havyarı",
-                                             "calories":  "250",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Pancar Konfi",
-                                             "price":  "290 TL",
-                                             "description":  "Peynir kreması, ızgara nektarin, kuzukulağı",
-                                             "calories":  "230",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Girit Ezmesi",
-                                             "price":  "430 TL",
-                                             "description":  "Kuru incir, Antep fıstığı",
-                                             "calories":  "350",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk",
-                                                               "nuts"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Ahtapot Hibeş",
-                                             "price":  "1.100 TL",
-                                             "description":  "Chimichurri, susamlı tuzlu krokan",
-                                             "calories":  "260",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sesame",
-                                                               "molluscs"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Atom",
-                                             "price":  "295 TL",
-                                             "description":  "Acılı grissini, file badem, kuru üzüm",
-                                             "calories":  "350",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten",
-                                                               "milk",
-                                                               "nuts"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Mantar Borani",
-                                             "price":  "295 TL",
-                                             "description":  "Süzme yoğurt, susam, çam fıstığı",
-                                             "calories":  "220",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk",
-                                                               "sesame"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Kinzi Avokado",
-                                             "price":  "390 TL",
-                                             "description":  "Fesleğen yağı, ızgara zeytin",
-                                             "calories":  "320",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Levrek Marin",
-                                             "price":  "650 TL",
-                                             "description":  "Antep fıstığı, kırmızı soğan",
-                                             "calories":  "250",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "fish",
-                                                               "nuts"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Köz Biber Ezmesi",
-                                             "price":  "290 TL",
-                                             "description":  "Ceviz chimichurri, acılı kraker, reyhan yağı",
-                                             "calories":  "260",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten",
-                                                               "nuts"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Yoğurtlu Semizotu",
-                                             "price":  "280 TL",
-                                             "description":  "Çilek, yeşil elma, nane yağı",
-                                             "calories":  "180",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Kök Sebze Pilaki",
-                                             "price":  "295 TL",
-                                             "description":  "Zahter turşusu",
-                                             "calories":  "200",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Yoğurtlu Köz Patlıcan",
-                                             "price":  "290 TL",
-                                             "description":  "Tane kimyon yağı, Parmesan cipsi, nane yaprağı",
-                                             "calories":  "240",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Babagannuş",
-                                             "price":  "290 TL",
-                                             "description":  "Tarhana cipsi, kekik ballı zeytinyağı",
-                                             "calories":  "280",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten",
-                                                               "milk",
-                                                               "sesame"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Havuç Tarator",
-                                             "price":  "280 TL",
-                                             "description":  "Bebek havuç, hardallı salatalık turşusu",
-                                             "calories":  "230",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk",
-                                                               "mustard"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Şakşuka",
-                                             "price":  "295 TL",
-                                             "description":  "Kale biberi, kibrit patates",
-                                             "calories":  "320",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Deniz Fasulyesi",
-                                             "price":  "320 TL",
-                                             "description":  "Mor incir, balzamik çektirme",
-                                             "calories":  "170",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "salatalar",
-                           "title":  "Salatalar",
-                           "subtitle":  "Bahçeden sofraya, günün en taze yeşillikleri.",
-                           "items":  [
-                                         {
-                                             "name":  "Yeşil Salata",
-                                             "price":  "320 TL",
-                                             "description":  "Kırmızı soğan, lolorosso, kıvırcık, nane, kuzukulağı, mor lahana, koçan mısır",
-                                             "calories":  "190",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Gavurdağı Salata",
-                                             "price":  "430 TL",
-                                             "description":  "Domates, biber, soğan, salatalık, ceviz cipsi, ceviz reçeli",
-                                             "calories":  "300",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "nuts"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Avokado Salata",
-                                             "price":  "450 TL",
-                                             "description":  "Reyhan, yaban mersini kurusu, renkli çeri domates, kuzukulağı, roka",
-                                             "calories":  "330",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Domates Salatası",
-                                             "price":  "390 TL",
-                                             "description":  "Pembe domates, renkli çeri, kıl biber, kırmızı soğan, domates kabuğu tozu",
-                                             "calories":  "160",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Peynirli Roka Salata",
-                                             "price":  "340 TL",
-                                             "description":  "Çoban peyniri, roka kreması, kırmızı soğan, kırmızı erik",
-                                             "calories":  "300",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "ara-sicaklar",
-                           "title":  "Ara Sıcaklar",
-                           "subtitle":  "Sofranın sıcak sohbetleri.",
-                           "items":  [
-                                         {
-                                             "name":  "Ege Ot Kavurma",
-                                             "price":  "480 TL",
-                                             "description":  "Yeşil yoğurt, ebegümeci, cibes, pazı, ıspanak",
-                                             "calories":  "300",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Otlu Yaprak Ciğer",
-                                             "price":  "850 TL",
-                                             "description":  "Dana ciğer, küp patates, nane, maydanoz, yeşil soğan, pide",
-                                             "calories":  "650",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Cibesli Ahtapot",
-                                             "price":  "1.050 TL",
-                                             "description":  "Izgara ahtapot, cibez otu, sarımsak, limon zest",
-                                             "calories":  "380",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "molluscs"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Portakallı Karides",
-                                             "price":  "1.100 TL",
-                                             "description":  "Pazı, portakallı terbiyeli balık sos",
-                                             "calories":  "420",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "crustaceans",
-                                                               "fish"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Yaprak Bonfile",
-                                             "price":  "1.400 TL",
-                                             "description":  "Konfi sarımsak, roka",
-                                             "calories":  "520",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Ördek Tandır",
-                                             "price":  "900 TL",
-                                             "description":  "Ağır ateşte pişmiş ördek, arpacık soğan, pide",
-                                             "calories":  "720",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Karides Tava",
-                                             "price":  "880 TL",
-                                             "description":  "Chili biber, maydanoz, sarımsak",
-                                             "calories":  "460",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "crustaceans"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Bostan Patlıcan",
-                                             "price":  "450 TL",
-                                             "description":  "Közlenmiş patlıcan, tulum peyniri, karamelize soğan, nane yağı",
-                                             "calories":  "430",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Kokoreç",
-                                             "price":  "1.500 TL",
-                                             "description":  "Köz biber ezmesi, nane, limon zest, kızarmış ekmek",
-                                             "calories":  "700",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Limonlu Sac Kavurma",
-                                             "price":  "1.400 TL",
-                                             "description":  "Dana bonfile, limon",
-                                             "calories":  "560",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "ana-yemekler",
-                           "title":  "Ana Yemekler",
-                           "subtitle":  "Közün ve sabrın imzası.",
-                           "items":  [
-                                         {
-                                             "name":  "Kuzu Şiş",
-                                             "price":  "1.045 TL",
-                                             "description":  "Kuzu but, köz chili biber, bebek patates, tablacı salatası",
-                                             "calories":  "820",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Kuzu Pirzola",
-                                             "price":  "1.250 TL",
-                                             "description":  "Köz chili biber, bebek patates, tablacı salatası",
-                                             "calories":  "950",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Zırh Kıyma Kebabı",
-                                             "price":  "845 TL",
-                                             "description":  "Köz chili biber, bebek patates, tablacı salatası, acılı / acısız",
-                                             "calories":  "850",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Dana Bonfile",
-                                             "price":  "1.650 TL",
-                                             "description":  "Köz chili biber, bebek patates, tablacı salatası, et sos",
-                                             "calories":  "780",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tavuk Kanat",
-                                             "price":  "795 TL",
-                                             "description":  "Köz chili biber, bebek patates, tablacı salatası",
-                                             "calories":  "900",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tavuk Şiş",
-                                             "price":  "695 TL",
-                                             "description":  "Tavuk kalça, köz chili biber, bebek patates, tablacı salatası",
-                                             "calories":  "760",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Levrek",
-                                             "price":  "990 TL",
-                                             "description":  "Levrek fileto, patates pavé, nane, limon zest, zencefilli vinigret",
-                                             "calories":  "650",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "fish",
-                                                               "milk"
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "tatlilar",
-                           "title":  "Tatlılar",
-                           "subtitle":  "Sofranın tatlı finali.",
-                           "items":  [
-                                         {
-                                             "name":  "Leblebili Sıcak Helva",
-                                             "price":  "400 TL",
-                                             "description":  "Serinhisar leblebisi, tahin helvası",
-                                             "calories":  "560",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sesame"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Fıstıklı İrmik Helvası",
-                                             "price":  "700 TL",
-                                             "description":  "Antep fıstığı, sade dondurma, tahin, gül yaprağı",
-                                             "calories":  "720",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "gluten",
-                                                               "milk",
-                                                               "nuts",
-                                                               "sesame"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Mevsim Meyveleri",
-                                             "price":  "300 TL",
-                                             "description":  "",
-                                             "calories":  "180",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       },
-                       {
-                           "id":  "alkolsuz-icecekler",
-                           "title":  "Alkolsüz İçecekler",
-                           "subtitle":  "",
-                           "items":  [
-                                         {
-                                             "name":  "Erikli Su 0,75 cl",
-                                             "price":  "80 TL",
-                                             "description":  "",
-                                             "calories":  "0",
-                                             "calorieEstimated":  false,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Coca-Cola",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 139",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Coca-Cola Zero",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 1",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Fanta",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 99",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Sprite",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 43",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Fuse Tea Limon",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 73",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Fuse Tea Şeftali",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 66",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Fuse Tea Mango Ananas",
-                                             "price":  "150 TL",
-                                             "description":  "",
-                                             "calories":  "330 ml: 112",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Soda 20 cl",
-                                             "price":  "100 TL",
-                                             "description":  "",
-                                             "calories":  "0",
-                                             "calorieEstimated":  false,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Churchill",
-                                             "price":  "190 TL",
-                                             "description":  "",
-                                             "calories":  "200 ml: 10",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Red Bull",
-                                             "price":  "250 TL",
-                                             "description":  "",
-                                             "calories":  "250 ml: 115",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Nar Suyu Bardak",
-                                             "price":  "200 TL",
-                                             "description":  "",
-                                             "calories":  "200 ml: 120",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Nar Suyu LT",
-                                             "price":  "400 TL",
-                                             "description":  "",
-                                             "calories":  "1 L: 600",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Şalgam Bardak",
-                                             "price":  "120 TL",
-                                             "description":  "",
-                                             "calories":  "200 ml: 10",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Zafer Gazoz",
-                                             "price":  "100 TL",
-                                             "description":  "",
-                                             "calories":  "200 ml: 80",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Şalgam LT",
-                                             "price":  "300 TL",
-                                             "description":  "",
-                                             "calories":  "1 L: 50",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list",
-                           "hideCollage":  true
-                       },
-                       {
-                           "id":  "rakilar",
-                           "title":  "Rakılar",
-                           "subtitle":  "Mezelerin en eski dostu.",
-                           "items":  [
-                                         {
-                                             "name":  "Yeni Rakı Yeni Seri",
-                                             "price":  "50 cl • 2.100 TL  ·  35 cl • 1.600 TL  ·  20 cl • 1.100 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Yeni Rakı",
-                                             "price":  "20 cl • 1.050 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tekirdağ Yaş Üzüm",
-                                             "price":  "70 cl • 2.500 TL  ·  50 cl • 2.100 TL  ·  35 cl • 1.550 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tekirdağ Boğazkere",
-                                             "price":  "70 cl • 2.650 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Tekirdağ Göbek",
-                                             "price":  "70 cl • 2.650 TL  ·  35 cl • 1.625 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi Göbek",
-                                             "price":  "100 cl • 3.850 TL  ·  70 cl • 3.100 TL  ·  50 cl • 2.275 TL  ·  35 cl • 1.750 TL  ·  20 cl • 1.175 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi İncirden",
-                                             "price":  "70 cl • 3.200 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi Margaz",
-                                             "price":  "70 cl • 3.200 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi Kalecik Karası",
-                                             "price":  "70 cl • 3.200 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi Mavi",
-                                             "price":  "70 cl • 3.200 TL  ·  50 cl • 2.325 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Beylerbeyi Terragold",
-                                             "price":  "35 cl • 1.825 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Efe Gold",
-                                             "price":  "70 cl • 2.850 TL  ·  50 cl • 2.100 TL  ·  35 cl • 1.700 TL  ·  20 cl • 1.150 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Efe Göbek",
-                                             "price":  "50 cl • 2.150 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Sarı Zeybek 3 Meşe",
-                                             "price":  "70 cl • 3.400 TL  ·  50 cl • 2.475 TL  ·  35 cl • 2.000 TL  ·  20 cl • 1.150 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Yeni Rakı Ala",
-                                             "price":  "70 cl • 2.900 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Kulüp Rakı",
-                                             "price":  "35 cl • 1.700 TL",
-                                             "description":  "",
-                                             "calories":  "5 cl: 125",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list",
-                           "hideCollage":  true
-                       },
-                       {
-                           "id":  "saraplar",
-                           "title":  "Şaraplar",
-                           "subtitle":  "Hanchalar bağlarından seçkin şaraplar.",
-                           "items":  [
-                                         {
-                                             "name":  "Hanchalar Öküzgözü \u0026 Syrah Fıçılı 2016 75 cl",
-                                             "price":  "2.500 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Cabernet-Merlot Fıçılı 2019 75 cl",
-                                             "price":  "2.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Çal Karası Kırmızı Fıçılı 2020 75 cl",
-                                             "price":  "2.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Syrah Fıçılı 75 cl",
-                                             "price":  "2.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Öküzgözü \u0026 Syrah 75 cl",
-                                             "price":  "1.300 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Cabernet-Merlot 75 cl",
-                                             "price":  "1.300 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Çal Karası Kırmızı 75 cl",
-                                             "price":  "1.200 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar 9Tat Tatlı Şarap 50 cl",
-                                             "price":  "1.500 TL",
-                                             "description":  "Chardonnay, Sauvignon Blanc, Merlot, Öküzgözü ve Boğazkere üzümlerinden üretilmiştir.",
-                                             "calories":  "15 cl: 165",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Clairet 75 cl",
-                                             "price":  "1.200 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Chardonnay 75 cl",
-                                             "price":  "1.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Sauvignon Blanc 75 cl",
-                                             "price":  "1.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Narince 75 cl",
-                                             "price":  "1.400 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Şampanya Beyaz 75 cl",
-                                             "price":  "1.000 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 105",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Şampanya Rose 75 cl",
-                                             "price":  "1.000 TL",
-                                             "description":  "",
-                                             "calories":  "15 cl: 105",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         },
-                                         {
-                                             "name":  "Hanchalar Premium 75 cl",
-                                             "price":  "10.000 TL",
-                                             "description":  "Yıllar içinde karakterini kaybetmeden derinleşmiş, gücünü zarafetle dengeleyen, 10 yıl dinlendirilmiş zarif bir şarap.",
-                                             "calories":  "15 cl: 135",
-                                             "calorieEstimated":  true,
-                                             "allergens":  [
-                                                               "sulfites"
-                                                           ],
-                                             "traceWarning":  ""
-                                         }
-                                     ],
-                           "layout":  "list"
-                       }
-                   ],
-    "campaigns":  [
-
-                  ],
-    "events":  [
-
-               ],
-    "announcements":  [
-
-                      ]
+  "site": {
+    "name": "Yirmi",
+    "city": "Denizli",
+    "tagline": "Aynı masada, daha güzel yarınlara…",
+    "address": "Denizli",
+    "phone": "+90 500 000 00 00",
+    "email": "info@lacamino.com.tr",
+    "opening": "14:00",
+    "closing": "00:00",
+    "logo": "assets/logo.png",
+    "chef": {
+      "name": "Kıvanç Karadeniz",
+      "title": "Yirmi Mutfak Şefi Ve Kurucusu · MasterChef Türkiye Finalisti",
+      "quote": "Denizli'nin sofrası, ustalıkla yeniden yorumlandı.",
+      "story": "Kıvanç Karadeniz, Denizli'de doğdu ve büyüdü. Mutfağa olan merakı çocukluk yıllarındaki Ege sofralarında başladı; zeytinyağının, otların ve közün kokusu hep hafızasında kaldı.\n\nLiseyi Denizli'de bitirdikten sonra İstanbul Üniversitesi Mühendislik Fakültesi'nde okudu. Ancak asıl tutkusunun mutfak olduğunu fark etti ve profesyonel aşçılık eğitimi alarak hayatını bu yola adadı. İstanbul'da, Yeniköy'deki bir restoranda yardımcı mutfak şefi olarak çalıştı.\n\nMasterChef Türkiye 2022'de büyük finale yükselerek yarışmayı ikinci tamamladı. 2025–2026 sezonundaki MasterChef Altın Kupa'da altın önlüğü kazanarak final dörtlüsüne kaldı ve milyonların takdirini topladı.\n\nBugün doğduğu şehirde, Yirmi'nin mutfağında; Denizli'nin ve Ege'nin dürüst lezzetlerini, yarışmalarda bilenen tekniği ve sade bir zarafetle yeniden yorumluyor.",
+      "photo": "images/kivanc-karadeniz-portre.jpg",
+      "timeline": [
+        {
+          "year": "Denizli",
+          "text": "Doğduğu şehir — mutfak tutkusu Ege sofralarında başladı"
+        },
+        {
+          "year": "2022",
+          "text": "MasterChef Türkiye — büyük final, ikincilik"
+        },
+        {
+          "year": "2026",
+          "text": "MasterChef Altın Kupa — altın önlük ve final dörtlüsü"
+        },
+        {
+          "year": "Bugün",
+          "text": "Yirmi Denizli'nin mutfağında, doğduğu şehirde"
+        }
+      ],
+      "signatureText": "Kıvanç Karadeniz",
+      "kitchenPhoto": "images/sef-mutfak-muqwaz7x.jpg"
+    }
+  },
+  "categories": [
+    {
+      "id": "sefin-seckisi",
+      "title": "Şefin Seçkisi",
+      "subtitle": "Şefin her gün özenle seçtiği beş meze, tek tabakta.",
+      "items": [
+        {
+          "name": "Somon Pastırma",
+          "price": "",
+          "description": "Sızma zeytinyağı, kırmızı soğan, limon suyu",
+          "calories": "180",
+          "calorieEstimated": true,
+          "allergens": [
+            "fish"
+          ],
+          "traceWarning": "",
+          "id": "sefin-seckisi--somon-pastirma"
+        },
+        {
+          "name": "Güllü Kuru Cacık",
+          "price": "",
+          "description": "Süzme yoğurt, gül suyu, gül yaprağı, salatalık",
+          "calories": "140",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "sefin-seckisi--gullu-kuru-cacik"
+        },
+        {
+          "name": "Tarama",
+          "price": "",
+          "description": "Balık yumurtası, lime zest, sızma zeytinyağı",
+          "calories": "230",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten",
+            "fish"
+          ],
+          "traceWarning": "",
+          "id": "sefin-seckisi--tarama"
+        },
+        {
+          "name": "Ciğer Pate",
+          "price": "",
+          "description": "Dana ciğer, soğan, sarımsak, krema",
+          "calories": "260",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "sefin-seckisi--ciger-pate"
+        },
+        {
+          "name": "Mantar Düksel",
+          "price": "",
+          "description": "Kültür mantarı, istiridye mantarı, kestane mantarı, soğan, sarımsak",
+          "calories": "170",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "sefin-seckisi--mantar-duksel"
+        }
+      ],
+      "setPrice": "5 Meze  ·  675 TL",
+      "layout": "list"
+    },
+    {
+      "id": "mezeler",
+      "title": "Mezeler",
+      "subtitle": "Ege'nin bereketi, mevsimin en taze halleri.",
+      "items": [
+        {
+          "name": "Köz Kapya Humus",
+          "price": "320 TL",
+          "description": "Çıtır nohut, nane yağı",
+          "calories": "300",
+          "calorieEstimated": true,
+          "allergens": [
+            "sesame"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--koz-kapya-humus"
+        },
+        {
+          "name": "Zeytinyağlı Enginar",
+          "price": "380 TL",
+          "description": "Narenciye sos, nar havyarı",
+          "calories": "220",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "mezeler--zeytinyagli-enginar"
+        },
+        {
+          "name": "Zencefilli Fava",
+          "price": "280 TL",
+          "description": "Kırmızı soğan, dereotu, limon havyarı",
+          "calories": "250",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "mezeler--zencefilli-fava"
+        },
+        {
+          "name": "Pancar Konfi",
+          "price": "290 TL",
+          "description": "Peynir kreması, ızgara nektarin, kuzukulağı",
+          "calories": "230",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--pancar-konfi"
+        },
+        {
+          "name": "Girit Ezmesi",
+          "price": "430 TL",
+          "description": "Kuru incir, Antep fıstığı",
+          "calories": "350",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk",
+            "nuts"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--girit-ezmesi"
+        },
+        {
+          "name": "Ahtapot Hibeş",
+          "price": "1.100 TL",
+          "description": "Chimichurri, susamlı tuzlu krokan",
+          "calories": "260",
+          "calorieEstimated": true,
+          "allergens": [
+            "sesame",
+            "molluscs"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--ahtapot-hibes"
+        },
+        {
+          "name": "Atom",
+          "price": "295 TL",
+          "description": "Acılı grissini, file badem, kuru üzüm",
+          "calories": "350",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten",
+            "milk",
+            "nuts"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--atom"
+        },
+        {
+          "name": "Mantar Borani",
+          "price": "295 TL",
+          "description": "Süzme yoğurt, susam, çam fıstığı",
+          "calories": "220",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk",
+            "sesame"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--mantar-borani"
+        },
+        {
+          "name": "Kinzi Avokado",
+          "price": "390 TL",
+          "description": "Fesleğen yağı, ızgara zeytin",
+          "calories": "320",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "mezeler--kinzi-avokado"
+        },
+        {
+          "name": "Levrek Marin",
+          "price": "650 TL",
+          "description": "Antep fıstığı, kırmızı soğan",
+          "calories": "250",
+          "calorieEstimated": true,
+          "allergens": [
+            "fish",
+            "nuts"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--levrek-marin"
+        },
+        {
+          "name": "Köz Biber Ezmesi",
+          "price": "290 TL",
+          "description": "Ceviz chimichurri, acılı kraker, reyhan yağı",
+          "calories": "260",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten",
+            "nuts"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--koz-biber-ezmesi"
+        },
+        {
+          "name": "Yoğurtlu Semizotu",
+          "price": "280 TL",
+          "description": "Çilek, yeşil elma, nane yağı",
+          "calories": "180",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--yogurtlu-semizotu"
+        },
+        {
+          "name": "Kök Sebze Pilaki",
+          "price": "295 TL",
+          "description": "Zahter turşusu",
+          "calories": "200",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "mezeler--kok-sebze-pilaki"
+        },
+        {
+          "name": "Yoğurtlu Köz Patlıcan",
+          "price": "290 TL",
+          "description": "Tane kimyon yağı, Parmesan cipsi, nane yaprağı",
+          "calories": "240",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--yogurtlu-koz-patlican"
+        },
+        {
+          "name": "Babagannuş",
+          "price": "290 TL",
+          "description": "Tarhana cipsi, kekik ballı zeytinyağı",
+          "calories": "280",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten",
+            "milk",
+            "sesame"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--babagannus"
+        },
+        {
+          "name": "Havuç Tarator",
+          "price": "280 TL",
+          "description": "Bebek havuç, hardallı salatalık turşusu",
+          "calories": "230",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk",
+            "mustard"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--havuc-tarator"
+        },
+        {
+          "name": "Şakşuka",
+          "price": "295 TL",
+          "description": "Kale biberi, kibrit patates",
+          "calories": "320",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "mezeler--saksuka"
+        },
+        {
+          "name": "Deniz Fasulyesi",
+          "price": "320 TL",
+          "description": "Mor incir, balzamik çektirme",
+          "calories": "170",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "mezeler--deniz-fasulyesi"
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "id": "salatalar",
+      "title": "Salatalar",
+      "subtitle": "Bahçeden sofraya, günün en taze yeşillikleri.",
+      "items": [
+        {
+          "name": "Yeşil Salata",
+          "price": "320 TL",
+          "description": "Kırmızı soğan, lolorosso, kıvırcık, nane, kuzukulağı, mor lahana, koçan mısır",
+          "calories": "190",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "salatalar--yesil-salata"
+        },
+        {
+          "name": "Gavurdağı Salata",
+          "price": "430 TL",
+          "description": "Domates, biber, soğan, salatalık, ceviz cipsi, ceviz reçeli",
+          "calories": "300",
+          "calorieEstimated": true,
+          "allergens": [
+            "nuts"
+          ],
+          "traceWarning": "",
+          "id": "salatalar--gavurdagi-salata"
+        },
+        {
+          "name": "Avokado Salata",
+          "price": "450 TL",
+          "description": "Reyhan, yaban mersini kurusu, renkli çeri domates, kuzukulağı, roka",
+          "calories": "330",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "salatalar--avokado-salata"
+        },
+        {
+          "name": "Domates Salatası",
+          "price": "390 TL",
+          "description": "Pembe domates, renkli çeri, kıl biber, kırmızı soğan, domates kabuğu tozu",
+          "calories": "160",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "salatalar--domates-salatasi"
+        },
+        {
+          "name": "Peynirli Roka Salata",
+          "price": "340 TL",
+          "description": "Çoban peyniri, roka kreması, kırmızı soğan, kırmızı erik",
+          "calories": "300",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "salatalar--peynirli-roka-salata"
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "id": "ara-sicaklar",
+      "title": "Ara Sıcaklar",
+      "subtitle": "Sofranın sıcak sohbetleri.",
+      "items": [
+        {
+          "name": "Ege Ot Kavurma",
+          "price": "480 TL",
+          "description": "Yeşil yoğurt, ebegümeci, cibes, pazı, ıspanak",
+          "calories": "300",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--ege-ot-kavurma"
+        },
+        {
+          "name": "Otlu Yaprak Ciğer",
+          "price": "850 TL",
+          "description": "Dana ciğer, küp patates, nane, maydanoz, yeşil soğan, pide",
+          "calories": "650",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--otlu-yaprak-ciger"
+        },
+        {
+          "name": "Cibesli Ahtapot",
+          "price": "1.050 TL",
+          "description": "Izgara ahtapot, cibez otu, sarımsak, limon zest",
+          "calories": "380",
+          "calorieEstimated": true,
+          "allergens": [
+            "molluscs"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--cibesli-ahtapot"
+        },
+        {
+          "name": "Portakallı Karides",
+          "price": "1.100 TL",
+          "description": "Pazı, portakallı terbiyeli balık sos",
+          "calories": "420",
+          "calorieEstimated": true,
+          "allergens": [
+            "crustaceans",
+            "fish"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--portakalli-karides"
+        },
+        {
+          "name": "Yaprak Bonfile",
+          "price": "1.400 TL",
+          "description": "Konfi sarımsak, roka",
+          "calories": "520",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ara-sicaklar--yaprak-bonfile"
+        },
+        {
+          "name": "Ördek Tandır",
+          "price": "900 TL",
+          "description": "Ağır ateşte pişmiş ördek, arpacık soğan, pide",
+          "calories": "720",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--ordek-tandir"
+        },
+        {
+          "name": "Karides Tava",
+          "price": "880 TL",
+          "description": "Chili biber, maydanoz, sarımsak",
+          "calories": "460",
+          "calorieEstimated": true,
+          "allergens": [
+            "crustaceans"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--karides-tava"
+        },
+        {
+          "name": "Bostan Patlıcan",
+          "price": "450 TL",
+          "description": "Közlenmiş patlıcan, tulum peyniri, karamelize soğan, nane yağı",
+          "calories": "430",
+          "calorieEstimated": true,
+          "allergens": [
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--bostan-patlican"
+        },
+        {
+          "name": "Kokoreç",
+          "price": "1.500 TL",
+          "description": "Köz biber ezmesi, nane, limon zest, kızarmış ekmek",
+          "calories": "700",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten"
+          ],
+          "traceWarning": "",
+          "id": "ara-sicaklar--kokorec"
+        },
+        {
+          "name": "Limonlu Sac Kavurma",
+          "price": "1.400 TL",
+          "description": "Dana bonfile, limon",
+          "calories": "560",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ara-sicaklar--limonlu-sac-kavurma"
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "id": "ana-yemekler",
+      "title": "Ana Yemekler",
+      "subtitle": "Közün ve sabrın imzası.",
+      "items": [
+        {
+          "name": "Kuzu Şiş",
+          "price": "1.045 TL",
+          "description": "Kuzu but, köz chili biber, bebek patates, tablacı salatası",
+          "calories": "820",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--kuzu-sis"
+        },
+        {
+          "name": "Kuzu Pirzola",
+          "price": "1.250 TL",
+          "description": "Köz chili biber, bebek patates, tablacı salatası",
+          "calories": "950",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--kuzu-pirzola"
+        },
+        {
+          "name": "Zırh Kıyma Kebabı",
+          "price": "845 TL",
+          "description": "Köz chili biber, bebek patates, tablacı salatası, acılı / acısız",
+          "calories": "850",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--zirh-kiyma-kebabi"
+        },
+        {
+          "name": "Dana Bonfile",
+          "price": "1.650 TL",
+          "description": "Köz chili biber, bebek patates, tablacı salatası, et sos",
+          "calories": "780",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--dana-bonfile"
+        },
+        {
+          "name": "Tavuk Kanat",
+          "price": "795 TL",
+          "description": "Köz chili biber, bebek patates, tablacı salatası",
+          "calories": "900",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--tavuk-kanat"
+        },
+        {
+          "name": "Tavuk Şiş",
+          "price": "695 TL",
+          "description": "Tavuk kalça, köz chili biber, bebek patates, tablacı salatası",
+          "calories": "760",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ana-yemekler--tavuk-sis"
+        },
+        {
+          "name": "Levrek",
+          "price": "990 TL",
+          "description": "Levrek fileto, patates pavé, nane, limon zest, zencefilli vinigret",
+          "calories": "650",
+          "calorieEstimated": true,
+          "allergens": [
+            "fish",
+            "milk"
+          ],
+          "traceWarning": "",
+          "id": "ana-yemekler--levrek"
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "id": "tatlilar",
+      "title": "Tatlılar",
+      "subtitle": "Sofranın tatlı finali.",
+      "items": [
+        {
+          "name": "Leblebili Sıcak Helva",
+          "price": "400 TL",
+          "description": "Serinhisar leblebisi, tahin helvası",
+          "calories": "560",
+          "calorieEstimated": true,
+          "allergens": [
+            "sesame"
+          ],
+          "traceWarning": "",
+          "id": "tatlilar--leblebili-sicak-helva"
+        },
+        {
+          "name": "Fıstıklı İrmik Helvası",
+          "price": "700 TL",
+          "description": "Antep fıstığı, sade dondurma, tahin, gül yaprağı",
+          "calories": "720",
+          "calorieEstimated": true,
+          "allergens": [
+            "gluten",
+            "milk",
+            "nuts",
+            "sesame"
+          ],
+          "traceWarning": "",
+          "id": "tatlilar--fistikli-irmik-helvasi"
+        },
+        {
+          "name": "Mevsim Meyveleri",
+          "price": "300 TL",
+          "description": "",
+          "calories": "180",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "tatlilar--mevsim-meyveleri"
+        }
+      ],
+      "layout": "list"
+    },
+    {
+      "id": "alkolsuz-icecekler",
+      "title": "Alkolsüz İçecekler",
+      "subtitle": "",
+      "items": [
+        {
+          "name": "Erikli Su 0,75 cl",
+          "price": "80 TL",
+          "description": "",
+          "calories": "0",
+          "calorieEstimated": false,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--erikli-su-0-75-cl"
+        },
+        {
+          "name": "Coca-Cola",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 139",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--coca-cola"
+        },
+        {
+          "name": "Coca-Cola Zero",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 1",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--coca-cola-zero"
+        },
+        {
+          "name": "Fanta",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 99",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--fanta"
+        },
+        {
+          "name": "Sprite",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 43",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--sprite"
+        },
+        {
+          "name": "Fuse Tea Limon",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 73",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--fuse-tea-limon"
+        },
+        {
+          "name": "Fuse Tea Şeftali",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 66",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--fuse-tea-seftali"
+        },
+        {
+          "name": "Fuse Tea Mango Ananas",
+          "price": "150 TL",
+          "description": "",
+          "calories": "330 ml: 112",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--fuse-tea-mango-ananas"
+        },
+        {
+          "name": "Soda 20 cl",
+          "price": "100 TL",
+          "description": "",
+          "calories": "0",
+          "calorieEstimated": false,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--soda-20-cl"
+        },
+        {
+          "name": "Churchill",
+          "price": "190 TL",
+          "description": "",
+          "calories": "200 ml: 10",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--churchill"
+        },
+        {
+          "name": "Red Bull",
+          "price": "250 TL",
+          "description": "",
+          "calories": "250 ml: 115",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--red-bull"
+        },
+        {
+          "name": "Nar Suyu Bardak",
+          "price": "200 TL",
+          "description": "",
+          "calories": "200 ml: 120",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--nar-suyu-bardak"
+        },
+        {
+          "name": "Nar Suyu LT",
+          "price": "400 TL",
+          "description": "",
+          "calories": "1 L: 600",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--nar-suyu-lt"
+        },
+        {
+          "name": "Şalgam Bardak",
+          "price": "120 TL",
+          "description": "",
+          "calories": "200 ml: 10",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--salgam-bardak"
+        },
+        {
+          "name": "Zafer Gazoz",
+          "price": "100 TL",
+          "description": "",
+          "calories": "200 ml: 80",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--zafer-gazoz"
+        },
+        {
+          "name": "Şalgam LT",
+          "price": "300 TL",
+          "description": "",
+          "calories": "1 L: 50",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "alkolsuz-icecekler--salgam-lt"
+        }
+      ],
+      "layout": "list",
+      "hideCollage": true
+    },
+    {
+      "id": "rakilar",
+      "title": "Rakılar",
+      "subtitle": "Mezelerin en eski dostu.",
+      "items": [
+        {
+          "name": "Yeni Rakı Yeni Seri",
+          "price": "50 cl • 2.100 TL  ·  35 cl • 1.600 TL  ·  20 cl • 1.100 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--yeni-raki-yeni-seri"
+        },
+        {
+          "name": "Yeni Rakı",
+          "price": "20 cl • 1.050 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--yeni-raki"
+        },
+        {
+          "name": "Tekirdağ Yaş Üzüm",
+          "price": "70 cl • 2.500 TL  ·  50 cl • 2.100 TL  ·  35 cl • 1.550 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--tekirdag-yas-uzum"
+        },
+        {
+          "name": "Tekirdağ Boğazkere",
+          "price": "70 cl • 2.650 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--tekirdag-bogazkere"
+        },
+        {
+          "name": "Tekirdağ Göbek",
+          "price": "70 cl • 2.650 TL  ·  35 cl • 1.625 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--tekirdag-gobek"
+        },
+        {
+          "name": "Beylerbeyi Göbek",
+          "price": "100 cl • 3.850 TL  ·  70 cl • 3.100 TL  ·  50 cl • 2.275 TL  ·  35 cl • 1.750 TL  ·  20 cl • 1.175 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-gobek"
+        },
+        {
+          "name": "Beylerbeyi İncirden",
+          "price": "70 cl • 3.200 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-incirden"
+        },
+        {
+          "name": "Beylerbeyi Margaz",
+          "price": "70 cl • 3.200 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-margaz"
+        },
+        {
+          "name": "Beylerbeyi Kalecik Karası",
+          "price": "70 cl • 3.200 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-kalecik-karasi"
+        },
+        {
+          "name": "Beylerbeyi Mavi",
+          "price": "70 cl • 3.200 TL  ·  50 cl • 2.325 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-mavi"
+        },
+        {
+          "name": "Beylerbeyi Terragold",
+          "price": "35 cl • 1.825 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--beylerbeyi-terragold"
+        },
+        {
+          "name": "Efe Gold",
+          "price": "70 cl • 2.850 TL  ·  50 cl • 2.100 TL  ·  35 cl • 1.700 TL  ·  20 cl • 1.150 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--efe-gold"
+        },
+        {
+          "name": "Efe Göbek",
+          "price": "50 cl • 2.150 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--efe-gobek"
+        },
+        {
+          "name": "Sarı Zeybek 3 Meşe",
+          "price": "70 cl • 3.400 TL  ·  50 cl • 2.475 TL  ·  35 cl • 2.000 TL  ·  20 cl • 1.150 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--sari-zeybek-3-mese"
+        },
+        {
+          "name": "Yeni Rakı Ala",
+          "price": "70 cl • 2.900 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--yeni-raki-ala"
+        },
+        {
+          "name": "Kulüp Rakı",
+          "price": "35 cl • 1.700 TL",
+          "description": "",
+          "calories": "5 cl: 125",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "rakilar--kulup-raki"
+        }
+      ],
+      "layout": "list",
+      "hideCollage": true
+    },
+    {
+      "id": "saraplar",
+      "title": "Şaraplar",
+      "subtitle": "Hanchalar bağlarından seçkin şaraplar.",
+      "items": [
+        {
+          "name": "Hanchalar Öküzgözü & Syrah Fıçılı 2016 75 cl",
+          "price": "2.500 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-okuzgozu-syrah-ficili-2016-75-cl"
+        },
+        {
+          "name": "Hanchalar Cabernet-Merlot Fıçılı 2019 75 cl",
+          "price": "2.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-cabernet-merlot-ficili-2019-75-cl"
+        },
+        {
+          "name": "Hanchalar Çal Karası Kırmızı Fıçılı 2020 75 cl",
+          "price": "2.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-cal-karasi-kirmizi-ficili-2020-75-cl"
+        },
+        {
+          "name": "Hanchalar Syrah Fıçılı 75 cl",
+          "price": "2.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-syrah-ficili-75-cl"
+        },
+        {
+          "name": "Hanchalar Öküzgözü & Syrah 75 cl",
+          "price": "1.300 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-okuzgozu-syrah-75-cl"
+        },
+        {
+          "name": "Hanchalar Cabernet-Merlot 75 cl",
+          "price": "1.300 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-cabernet-merlot-75-cl"
+        },
+        {
+          "name": "Hanchalar Çal Karası Kırmızı 75 cl",
+          "price": "1.200 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-cal-karasi-kirmizi-75-cl"
+        },
+        {
+          "name": "Hanchalar 9Tat Tatlı Şarap 50 cl",
+          "price": "1.500 TL",
+          "description": "Chardonnay, Sauvignon Blanc, Merlot, Öküzgözü ve Boğazkere üzümlerinden üretilmiştir.",
+          "calories": "15 cl: 165",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-9tat-tatli-sarap-50-cl"
+        },
+        {
+          "name": "Hanchalar Clairet 75 cl",
+          "price": "1.200 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-clairet-75-cl"
+        },
+        {
+          "name": "Hanchalar Chardonnay 75 cl",
+          "price": "1.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-chardonnay-75-cl"
+        },
+        {
+          "name": "Hanchalar Sauvignon Blanc 75 cl",
+          "price": "1.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-sauvignon-blanc-75-cl"
+        },
+        {
+          "name": "Hanchalar Narince 75 cl",
+          "price": "1.400 TL",
+          "description": "",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-narince-75-cl"
+        },
+        {
+          "name": "Şampanya Beyaz 75 cl",
+          "price": "1.000 TL",
+          "description": "",
+          "calories": "15 cl: 105",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--sampanya-beyaz-75-cl"
+        },
+        {
+          "name": "Şampanya Rose 75 cl",
+          "price": "1.000 TL",
+          "description": "",
+          "calories": "15 cl: 105",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--sampanya-rose-75-cl"
+        },
+        {
+          "name": "Hanchalar Premium 75 cl",
+          "price": "10.000 TL",
+          "description": "Yıllar içinde karakterini kaybetmeden derinleşmiş, gücünü zarafetle dengeleyen, 10 yıl dinlendirilmiş zarif bir şarap.",
+          "calories": "15 cl: 135",
+          "calorieEstimated": true,
+          "allergens": [
+            "sulfites"
+          ],
+          "traceWarning": "",
+          "id": "saraplar--hanchalar-premium-75-cl"
+        }
+      ],
+      "layout": "list"
+    }
+  ],
+  "campaigns": [],
+  "events": [],
+  "announcements": []
 }
