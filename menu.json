@@ -669,7 +669,8 @@
           "id": "tatlilar--mevsim-meyveleri"
         }
       ],
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-tatlilar-mur94sc9.jpg"
     },
     {
       "id": "alkolsuz-icecekler",
