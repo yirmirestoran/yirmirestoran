@@ -129,7 +129,8 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--koz-kapya-humus"
+          "id": "mezeler--koz-kapya-humus",
+          "image": "images/koz-kapya-humus-mur5goob.jpg"
         },
         {
           "name": "Zeytinyağlı Enginar",
@@ -139,7 +140,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--zeytinyagli-enginar"
+          "id": "mezeler--zeytinyagli-enginar",
+          "image": "images/zeytinyagli-enginar-mur5k81u.jpg"
         },
         {
           "name": "Zencefilli Fava",
@@ -149,7 +151,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--zencefilli-fava"
+          "id": "mezeler--zencefilli-fava",
+          "image": "images/zencefilli-fava-mur5nkuu.jpg"
         },
         {
           "name": "Pancar Konfi",
@@ -161,7 +164,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "mezeler--pancar-konfi"
+          "id": "mezeler--pancar-konfi",
+          "image": "images/pancar-konfi-mur5ltgh.jpg"
         },
         {
           "name": "Girit Ezmesi",
@@ -174,7 +178,8 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--girit-ezmesi"
+          "id": "mezeler--girit-ezmesi",
+          "image": "images/girit-ezmesi-mur642o1.jpg"
         },
         {
           "name": "Ahtapot Hibeş",
@@ -187,7 +192,8 @@
             "molluscs"
           ],
           "traceWarning": "",
-          "id": "mezeler--ahtapot-hibes"
+          "id": "mezeler--ahtapot-hibes",
+          "image": "images/ahtapot-hibes-mur5s3xu.jpg"
         },
         {
           "name": "Atom",
@@ -201,7 +207,8 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--atom"
+          "id": "mezeler--atom",
+          "image": "images/atom-mur5vimb.jpg"
         },
         {
           "name": "Mantar Borani",
@@ -214,7 +221,8 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--mantar-borani"
+          "id": "mezeler--mantar-borani",
+          "image": "images/mantar-borani-mur5x5nz.jpg"
         },
         {
           "name": "Kinzi Avokado",
@@ -224,7 +232,8 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--kinzi-avokado"
+          "id": "mezeler--kinzi-avokado",
+          "image": "images/kinzi-avokado-mur63jfj.jpg"
         },
         {
           "name": "Levrek Marin",
@@ -237,7 +246,8 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--levrek-marin"
+          "id": "mezeler--levrek-marin",
+          "image": "images/levrek-marin-mur655ub.jpg"
         },
         {
           "name": "Köz Biber Ezmesi",
