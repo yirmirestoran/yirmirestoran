@@ -109,7 +109,8 @@
         }
       ],
       "setPrice": "5 Meze  ·  675 TL",
-      "layout": "list"
+      "layout": "list",
+      "cover": "images/kapak-sefin-seckisi-mur22pse.jpg"
     },
     {
       "id": "mezeler",
