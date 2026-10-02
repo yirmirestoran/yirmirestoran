@@ -68,7 +68,8 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--gullu-kuru-cacik"
+          "id": "sefin-seckisi--gullu-kuru-cacik",
+          "image": "images/gullu-kuru-cacik-mur3o9s1.jpg"
         },
         {
           "name": "Tarama",
@@ -81,7 +82,8 @@
             "fish"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--tarama"
+          "id": "sefin-seckisi--tarama",
+          "image": "images/tarama-mur3q9m4.jpg"
         },
         {
           "name": "Ciğer Pate",
