@@ -56,7 +56,8 @@
             "fish"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--somon-pastirma"
+          "id": "sefin-seckisi--somon-pastirma",
+          "image": "images/somon-pastirma-mur6ltho.jpg"
         },
         {
           "name": "Güllü Kuru Cacık",
@@ -69,7 +70,7 @@
           ],
           "traceWarning": "",
           "id": "sefin-seckisi--gullu-kuru-cacik",
-          "image": "images/gullu-kuru-cacik-mur3ynfd.jpg"
+          "image": "images/gullu-kuru-cacik-mur6n7gj.jpg"
         },
         {
           "name": "Tarama",
@@ -83,7 +84,7 @@
           ],
           "traceWarning": "",
           "id": "sefin-seckisi--tarama",
-          "image": "images/tarama-mur3q9m4.jpg"
+          "image": "images/tarama-mur6p8pp.jpg"
         },
         {
           "name": "Ciğer Pate",
