@@ -47,7 +47,7 @@
       "subtitle": "Şefin her gün özenle seçtiği beş meze, tek tabakta.",
       "items": [
         {
-          "name": "Somon Pastırma",
+          "name": "Akya Pastırma",
           "price": "",
           "description": "Sızma zeytinyağı, kırmızı soğan, limon suyu",
           "calories": "180",
@@ -56,8 +56,7 @@
             "fish"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--somon-pastirma",
-          "image": "images/somon-pastirma-mur6ltho.jpg"
+          "id": "sefin-seckisi--somon-pastirma"
         },
         {
           "name": "Güllü Kuru Cacık",
@@ -69,8 +68,7 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--gullu-kuru-cacik",
-          "image": "images/gullu-kuru-cacik-mur6n7gj.jpg"
+          "id": "sefin-seckisi--gullu-kuru-cacik"
         },
         {
           "name": "Tarama",
@@ -83,8 +81,7 @@
             "fish"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--tarama",
-          "image": "images/tarama-mur6p8pp.jpg"
+          "id": "sefin-seckisi--tarama"
         },
         {
           "name": "Ciğer Pate",
@@ -109,8 +106,7 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "sefin-seckisi--mantar-duksel",
-          "image": "images/mantar-duksel-mur7lc1k.jpg"
+          "id": "sefin-seckisi--mantar-duksel"
         }
       ],
       "setPrice": "5 Meze  ·  675 TL",
@@ -132,8 +128,7 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--koz-kapya-humus",
-          "image": "images/koz-kapya-humus-mur7lid3.jpg"
+          "id": "mezeler--koz-kapya-humus"
         },
         {
           "name": "Zeytinyağlı Enginar",
@@ -210,8 +205,7 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--atom",
-          "image": "images/atom-mur7mfaj.jpg"
+          "id": "mezeler--atom"
         },
         {
           "name": "Mantar Borani",
@@ -224,8 +218,7 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--mantar-borani",
-          "image": "images/mantar-borani-mur7mpg1.jpg"
+          "id": "mezeler--mantar-borani"
         },
         {
           "name": "Kinzi Avokado",
@@ -235,8 +228,7 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--kinzi-avokado",
-          "image": "images/kinzi-avokado-mur7mvxx.jpg"
+          "id": "mezeler--kinzi-avokado"
         },
         {
           "name": "Levrek Marin",
@@ -249,8 +241,7 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--levrek-marin",
-          "image": "images/levrek-marin-mur7n36m.jpg"
+          "id": "mezeler--levrek-marin"
         },
         {
           "name": "Köz Biber Ezmesi",
@@ -263,8 +254,7 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "mezeler--koz-biber-ezmesi",
-          "image": "images/koz-biber-ezmesi-mur7naj4.jpg"
+          "id": "mezeler--koz-biber-ezmesi"
         },
         {
           "name": "Yoğurtlu Semizotu",
@@ -276,8 +266,7 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "mezeler--yogurtlu-semizotu",
-          "image": "images/yogurtlu-semizotu-mur7nh22.jpg"
+          "id": "mezeler--yogurtlu-semizotu"
         },
         {
           "name": "Kök Sebze Pilaki",
@@ -287,8 +276,7 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--kok-sebze-pilaki",
-          "image": "images/kok-sebze-pilaki-mur7nop0.jpg"
+          "id": "mezeler--kok-sebze-pilaki"
         },
         {
           "name": "Yoğurtlu Köz Patlıcan",
@@ -300,8 +288,7 @@
             "milk"
           ],
           "traceWarning": "",
-          "id": "mezeler--yogurtlu-koz-patlican",
-          "image": "images/yogurtlu-koz-patlican-mur7ntqz.jpg"
+          "id": "mezeler--yogurtlu-koz-patlican"
         },
         {
           "name": "Babagannuş",
@@ -315,8 +302,7 @@
             "sesame"
           ],
           "traceWarning": "",
-          "id": "mezeler--babagannus",
-          "image": "images/babagannus-mur7o1zz.jpg"
+          "id": "mezeler--babagannus"
         },
         {
           "name": "Havuç Tarator",
@@ -329,8 +315,7 @@
             "mustard"
           ],
           "traceWarning": "",
-          "id": "mezeler--havuc-tarator",
-          "image": "images/havuc-tarator-mur7o7m1.jpg"
+          "id": "mezeler--havuc-tarator"
         },
         {
           "name": "Şakşuka",
@@ -340,8 +325,7 @@
           "calorieEstimated": true,
           "allergens": [],
           "traceWarning": "",
-          "id": "mezeler--saksuka",
-          "image": "images/saksuka-mur7oifj.jpg"
+          "id": "mezeler--saksuka"
         },
         {
           "name": "Deniz Fasulyesi",
@@ -353,8 +337,7 @@
             "sulfites"
           ],
           "traceWarning": "",
-          "id": "mezeler--deniz-fasulyesi",
-          "image": "images/deniz-fasulyesi-mur800l2.jpg"
+          "id": "mezeler--deniz-fasulyesi"
         }
       ],
       "layout": "list",
@@ -385,7 +368,8 @@
             "nuts"
           ],
           "traceWarning": "",
-          "id": "salatalar--gavurdagi-salata"
+          "id": "salatalar--gavurdagi-salata",
+          "image": "images/gavurdagi-salata-mur83sbk.jpg"
         },
         {
           "name": "Avokado Salata",
@@ -545,6 +529,16 @@
           "allergens": [],
           "traceWarning": "",
           "id": "ara-sicaklar--limonlu-sac-kavurma"
+        },
+        {
+          "name": "Meyhane Klasiği",
+          "price": "480 TL",
+          "description": "Patates,Patlıcan,Taze Soğan,Çarlistan",
+          "calories": "",
+          "calorieEstimated": true,
+          "allergens": [],
+          "traceWarning": "",
+          "id": "ara-sicaklar--yeni-urun"
         }
       ],
       "layout": "list",
