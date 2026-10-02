@@ -456,7 +456,8 @@
             "molluscs"
           ],
           "traceWarning": "",
-          "id": "ara-sicaklar--cibesli-ahtapot"
+          "id": "ara-sicaklar--cibesli-ahtapot",
+          "hidden": true
         },
         {
           "name": "Portakallı Karides",
